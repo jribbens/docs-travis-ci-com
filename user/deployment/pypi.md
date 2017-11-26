@@ -110,6 +110,7 @@ deploy:
 ```
 
 If you specify `bdist_wheel` in the distributions, the `wheel` package will automatically be installed.
+Note that PyPI does not support the upload of Linux-specific binary wheels.
 
 ## Releasing build artifacts
 
